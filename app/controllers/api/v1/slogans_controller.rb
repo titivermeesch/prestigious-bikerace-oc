@@ -2,7 +2,7 @@ module Api
     module V1
         class SlogansController < ApplicationController
             def index
-                slogans = Slogan.order('created_at DESC')
+                slogans = Slogan.order('created_at')
                 render json: {
                     status: 'SUCCESS',
                     message: 'Loaded slogans',
@@ -26,7 +26,7 @@ module Api
                     status: 'SUCCESS',
                     message: 'Saved slogan',
                     data: slogan
-                    }, status: :ok
+                    }, status: :created
                     else 
                         render json: {
                         status: 'ERROR',
