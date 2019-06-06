@@ -31,7 +31,7 @@ module Api
                         render json: {
                         status: 'ERROR',
                         message: 'Slogan not saved',
-                        data: slogan.error
+                        data: slogan.errors
                     }, status: :unprocessable_entity
                 end
             end
