@@ -1,24 +1,6 @@
-# README
+# Prestigious Bikerace Backend
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Backend written in Ruby on Rails.
+Using SQLite so no extra database required.
 
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+This was a little project created to save slogans in a database.
